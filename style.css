@@ -15,3 +15,45 @@ ul{
   overflow: hidden;
   background-color: #4583;
 }
+
+li {
+  float: left;
+}
+
+li a, .dropBtn {
+  display: inline-block;
+  color: mediumspringgreen;
+  text-align: center;
+  padding: 12px 14px;
+}
+
+li a:hover, .dropDown:hover .dropBtn {
+  background-color: #fda;
+}
+li.dropDown{
+  display: inline-block;
+}
+
+.dropDown-content{
+  display: none;
+  position: absolute;
+  background-color: #097;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(1,0,1,0.3);
+  z-index: 1;
+}
+
+.dropDown-content a{
+  color: #853;
+  display: block;
+  text-align: left;
+}
+
+.dropDown-content a:hover {
+  background-color: #f463;
+  color: #e835;
+}
+
+.dropDown:hover .dropDown-content{
+  display: block;
+}
