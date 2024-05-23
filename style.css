@@ -57,3 +57,11 @@ li.dropDown{
 .dropDown:hover .dropDown-content{
   display: block;
 }
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
