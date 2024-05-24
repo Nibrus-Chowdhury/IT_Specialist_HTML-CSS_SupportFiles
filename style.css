@@ -1,3 +1,7 @@
+* {
+  font-family: Fraunces;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -6,6 +10,7 @@ html {
 body{
   width: auto;
   height: 100%;
+  background-color: #A9907E;
 }
 
 ul{
@@ -13,7 +18,7 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #4583;
+  background-color: #606f9a33;
 }
 
 li {
@@ -22,13 +27,14 @@ li {
 
 li a, .dropBtn {
   display: inline-block;
-  color: mediumspringgreen;
+  color: #853;
   text-align: center;
   padding: 12px 14px;
 }
 
 li a:hover, .dropDown:hover .dropBtn {
-  background-color: #fda;
+  background-color: #F3DEBA;
+  border: 2px solid;
 }
 li.dropDown{
   display: inline-block;
@@ -37,7 +43,8 @@ li.dropDown{
 .dropDown-content{
   display: none;
   position: absolute;
-  background-color: #097;
+  background-color: #F3DEBA;
+  border: 2px solid #853;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(1,0,1,0.3);
   z-index: 1;
@@ -50,8 +57,8 @@ li.dropDown{
 }
 
 .dropDown-content a:hover {
-  background-color: #f463;
-  color: #e835;
+  background-color: #dcccb2;
+  color: #675D50;
 }
 
 .dropDown:hover .dropDown-content{
@@ -59,9 +66,15 @@ li.dropDown{
 }
 
 .left {
+  float: left;
   width: 25%;
 }
 
 .right {
+  float: right;
   width: 75%;
+}
+
+a {
+  text-decoration: none;
 }
