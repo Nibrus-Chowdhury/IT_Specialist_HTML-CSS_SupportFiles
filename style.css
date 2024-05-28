@@ -73,13 +73,25 @@ li.dropDown {
 }
 
 .left {
+  margin-left: 10px;
+  margin-top: 10px;
   float: left;
   width: 30%;
+  border: 2px solid #ABC4AA;
+  color: #853;
 }
 
 .right {
+  color: #853;
+  margin-top: 10px;
+  margin-right: 10px;
   float: right;
-  width: 70%;
+  width: 60%;
+  border: 2px solid #ABC4AA;
+}
+
+p {
+  padding: 5px;
 }
 
 a {
@@ -98,4 +110,5 @@ a {
   border: 5px solid #ABC4AA;
   height: 100%;
   margin-top: 10px;
+  text-align: center;
 }
